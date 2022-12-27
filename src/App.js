@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'https://backback-q36f.onrender.com/products/all'
+        'https://appoitments-server.onrender.com/products/all'
       );
       setData(result.data.products);
     };
